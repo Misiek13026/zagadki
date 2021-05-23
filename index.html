@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+    <meta charset="utf-8"/>
+    <title>Zagadki</title>
+    <style>
+        body
+        {
+		 background-image: url(https://image.freepik.com/darmowe-wektory/calkowite-zacmienie-slonca-lub-ksiezyca-ksiezyc-pokrywa-slonce-tajemnicze-zjawisko-naturalne-w-przestrzeni-kosmicznej-planetarny-dystans-galaktyka-nieba-swiecace-gwiazdy-astronomia-kosmiczne-tlo-realistyczna-3d-wektorowa-ilustracja_1441-3355.jpg);         
+		 background-color: #1b5858;
+        }
+
+        h1
+        {
+            color:white;
+            position: relative;
+            text-align: center;
+            font-family: Arial;
+            font-size: 33px;
+        }
+
+        h2
+        {
+            color:white;
+            position: relative;
+            left: 50px;
+            font-family: Arial;
+            font-size: 25px;
+        }
+
+        p
+        {
+            color:white;
+            position: relative;
+            left: 50px;
+            font-family: Arial;
+            font-size: 15px;
+        }
+
+        .button
+        {
+            position: relative;
+            left: 50px;
+        }
+
+        .div
+        {
+            color:white;
+            position: relative;
+            left: 50px;
+            font-family: Arial;
+            font-size: 15px;
+            top: 15px;
+            bottom: 15px;
+        }
+    </style>
+    <script>
+        function f1()
+        {
+            document.getElementById("d1").innerHTML="4 koty";
+        }
+
+        function f2()
+        {
+            document.getElementById("d1").innerHTML="Odpowiedź ukryta";
+        } 
+
+        function f3()
+        {
+            document.getElementById("d2").innerHTML="Nie padało";
+        }
+            
+        function f4()
+        {
+            document.getElementById("d2").innerHTML="Odpowiedź ukryta";
+        }   
+
+        function f5()
+        {
+            document.getElementById("d3").innerHTML="Jedna bogini dostała jabłko z koszykiem";
+        }
+                
+        function f6()
+        {
+            document.getElementById("d3").innerHTML="Odpowiedź ukryta";
+        }
+
+        function f7()
+        {
+            document.getElementById("d4").innerHTML="jutro";
+        }
+
+        function f8()
+        {
+            document.getElementById("d4").innerHTML="Odpowiedź ukryta";
+        }
+
+        function f9()
+        {
+            document.getElementById("d5").innerHTML="Litera A ";
+        }
+
+        function f10()
+        {
+            document.getElementById("d5").innerHTML="Odpowiedź ukryta";
+        }
+    </script>
+</head>
+<body>   
+    <h1>Zagadki Logiczne</h1>
+    <h2>Zagadka pierwsza</h2>
+    <p>W pokoju są 4 kąty i kilka kotów. Każdy z kotów widzi pozostałe koty w trzech pozostałych kątach pokoju. Ile jest kotów?</p>
+    <input type="button" value="Pokaż odpowiedź" class="button" onclick="f1()">
+    <input type="button" value="Ukryj odpowiedź" class="button" onclick="f2()">
+    <div class=div id="d1">Odpowiedz ukryta</div>
+    <br>
+
+    <h2>Zagadka druga</h2>
+    <p>Jeśli troje dzieci i ich trzy psy nie znajdowało się pod parasolem, to jak to się stało, że żadne z nich nie zmokło?</p>
+    <input type="button" value="Pokaż odpowiedź" class="button" onclick="f3()">
+    <input type="button" value="Ukryj odpowiedź" class="button" onclick="f4()">
+    <div class=div id="d2">Odpowiedz ukryta</div>
+    <br>
+
+    <h2>Zagadka trzecia</h2>
+    <p>Parys miał w koszu 3 jabłka, które rozdał 3 boginiom tak, że każda z nich dostała jedno jabłko, ale jedno jabłko zostało w koszyku. Jak to możliwe?</p>
+    <input type="button" value="Pokaż odpowiedź" class="button" onclick="f5()">
+    <input type="button" value="Ukryj odpowiedź" class="button" onclick="f6()">
+    <div class=div id="d3">Odpowiedz ukryta</div>
+    <br>
+
+    <h2>Zagadka czwarta</h2>
+    <p>Zawsze przyjdzie, ale nigdy nie przyjdzie dzisiaj. Co to takiego?</p>
+    <input type="button" value="Pokaż odpowiedź" class="button" onclick="f7()">
+    <input type="button" value="Ukryj odpowiedź" class="button" onclick="f8()">
+    <div class=div id="d4">Odpowiedz ukryta</div>
+    <br>
+
+    <h2>Zagadka piąta</h2>
+    <p>Co jest na końcu tęczy?</p>
+    <input type="button" value="Pokaż odpowiedź" class="button" onclick="f9()">
+    <input type="button" value="Ukryj odpowiedź" class="button" onclick="f10()">
+    <div class=div id="d5">Odpowiedz ukryta</div>
+</body>
+</html>
